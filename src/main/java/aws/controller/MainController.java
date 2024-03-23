@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class MainController {
 
     @GetMapping("/")
-    public String main(){
+    public String home(){
         return "메인페이지!!!";
     }
 }
